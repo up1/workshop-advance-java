@@ -1,0 +1,30 @@
+-  request:
+      method: GET
+      url: /account/1
+ 
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: 1.json
+
+-  request:
+      method: GET
+      url: /account/3
+ 
+   response:
+      status: 200
+      latency: 5000
+      headers:
+         content-type: application/json
+      file: 1.json
+
+-  request:
+      method: GET
+      url: /account/2
+ 
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: 2.json
